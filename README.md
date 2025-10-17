@@ -412,3 +412,13 @@ export XKB_CONFIG_ROOT=/usr/share/X11/xkb
 ```
 
 That's all for now, we will keep updating this README with more information as we go.
+
+### Trouble
+
+version of numpy :
+
+pip install "numpy<2"
+
+AttributeError: type object 'ColorPalette' has no attribute 'default'
+
+ColorPalette.DEFAULT
